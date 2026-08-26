@@ -46,7 +46,7 @@ roed_protocol(fit)
 roed_select(
   fit,
   toxicity = c(5, 8),
-  efficacy = c(25, 31)
+  efficacy = c(28, 31)
 )
 ~~~
 
