@@ -1,0 +1,30 @@
+Package: ROED
+Type: Package
+Title: Robustly Optimal Exact Designs for Randomized Dose Optimization
+Version: 1.0.0
+Authors@R: c(
+    person("Haohaostats",
+           email = "haocstats@gmail.com",
+           role = c("aut", "cre"))
+    )
+Description: Constructs robustly optimal exact designs for randomized
+    dose-optimization trials with co-primary binary toxicity and efficacy
+    endpoints. The package determines dose-specific sample sizes and integer
+    decision thresholds under exact strong familywise error control and a
+    finite-scenario maximin generalized-power requirement. It also evaluates
+    exact operating characteristics, produces protocol-ready decision rules,
+    and applies a completed design to final toxicity and efficacy counts.
+License: MIT + file LICENSE
+URL: https://github.com/haohaostats/ROED
+BugReports: https://github.com/haohaostats/ROED/issues
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    graphics,
+    grDevices,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
