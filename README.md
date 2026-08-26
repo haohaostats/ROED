@@ -4,10 +4,6 @@ ROED implements Robustly Optimal Exact Designs for randomized
 dose-optimization trials with co-primary binary toxicity and efficacy
 endpoints.
 
-The package is intended for designing and implementing a trial. It is not a
-paper-reproduction package and does not include simulation-study comparators or
-manuscript figure-generation code.
-
 ## Installation
 
 ~~~r
@@ -54,9 +50,7 @@ roed_select(
 )
 ~~~
 
-The design search is exact, deterministic, and single-threaded. Probability
-surfaces are cached internally during a search; users do not need to configure
-or manage the cache.
+The design search is exact and deterministic.
 
 ## User-facing functions
 
@@ -67,6 +61,3 @@ or manage the cache.
 * roed_protocol() returns a decision table for the protocol or analysis plan.
 * roed_select() applies the final integer rules to completed trial counts.
 * roed_resume() continues an interrupted search from an explicit checkpoint.
-
-The package does not expose internal cache settings and does not start parallel
-workers or background processes.
