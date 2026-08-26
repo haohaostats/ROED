@@ -1,8 +1,7 @@
 # ROED paper reproduction
 
 This directory contains the self-contained computation code and frozen numeric
-results for Numerical Studies 1--4 and the sotorasib application. It writes CSV
-files only; manuscript tables and figures are intentionally not generated here.
+results for Numerical Studies 1--4 and the sotorasib application. 
 
 ## Obtain the manuscript results without recomputation
 
