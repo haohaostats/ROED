@@ -53,6 +53,4 @@ hardware. MERIT Monte Carlo quantities use a small numerical tolerance.
 ## Provenance
 
 `src/exact_engine.py`, `src/merit_local.R`, and `src/roed_s.py` are copies of
-the engines used for the current manuscript computations. `SHA256SUMS.csv`
-records the archived source and frozen-result hashes. No LaTeX drawing or table
-code is included.
+the engines used for the current manuscript computations. 
