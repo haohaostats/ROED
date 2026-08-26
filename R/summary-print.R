@@ -52,7 +52,6 @@ print.summary.roed_design <- function(x, ...) {
   cat(sprintf("  Minimum G2:                   %.6f\n", x$min_g2))
   cat(sprintf("  Search time (seconds):        %.2f\n",
               x$search$elapsed_seconds))
-  cat("  Search engine:                deterministic, single-threaded\n")
   cat("\nDose-specific decision rules:\n")
   display <- x$design[, c("dose", "n", "m_t", "m_e", "local_error")]
   names(display) <- c("Dose", "n", "Max toxicity", "Min efficacy",
@@ -71,4 +70,3 @@ as.data.frame.roed_design <- function(x, row.names = NULL, optional = FALSE,
 coef.roed_design <- function(object, ...) {
   object$design[, c("dose", "n", "m_t", "m_e")]
 }
-
