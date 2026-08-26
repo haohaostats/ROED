@@ -1,0 +1,4 @@
+_checkpoints/
+results/**/*.csv
+**/__pycache__/
+*.pyc

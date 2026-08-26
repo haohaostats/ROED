@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "project_name": "ROED formal simulation studies",
+  "master_seed": 20260824,
+  "default_workers": 4,
+  "max_retries": 1,
+  "design_grid": {
+    "J": [2, 3, 4],
+    "alpha": [0.05, 0.10],
+    "target_power": [0.80, 0.90],
+    "efficacy_pairs": [[0.30, 0.10], [0.60, 0.40]],
+    "phi_T1": 0.20,
+    "phi_T0": 0.40,
+    "planning_rho": [0.00, 0.30],
+    "n_min": 10,
+    "n_max": 150
+  },
+  "merit": {
+    "primary_search": "local_r",
+    "design_correlation": 0.15,
+    "design_simulations": 10000,
+    "oc_correlations": [0.00, 0.30],
+    "oc_simulations": 10000,
+    "max_parallel_sessions": 4,
+    "max_retries": 1,
+    "retry_backoff_seconds": 0
+  },
+  "study4": {
+    "effect_contractions": [0.00, 0.025, 0.05],
+    "evaluation_rho": [-0.10, 0.00, 0.15, 0.30],
+    "timing_repetitions": 20
+  }
+}

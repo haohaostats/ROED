@@ -11,6 +11,9 @@ endpoints.
 remotes::install_github("haohaostats/ROED")
 ~~~
 
+Code and frozen CSV results for reproducing the accompanying manuscript are
+available in [`paper-reproduction/`](paper-reproduction/README.md).
+
 ## Worked example: randomized sotorasib dose comparison
 
 This example reconstructs the application presented in the accompanying

@@ -1,0 +1,3 @@
+dose,enrolled,toxicity,efficacy,maximum_toxicities,minimum_responses,toxicity_pass,efficacy_pass,selected
+240 mg,104,20,26,34,20,TRUE,TRUE,TRUE
+960 mg,104,37,34,30,19,FALSE,TRUE,FALSE

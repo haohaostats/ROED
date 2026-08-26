@@ -1,0 +1,3 @@
+dose,n,max_toxicities,min_responses,local_worst_error
+240 mg,104,34,20,0.0764396851
+960 mg,104,30,19,0.0120004431
